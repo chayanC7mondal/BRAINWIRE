@@ -7,7 +7,9 @@ const App = () => (
   <>
     <ButtonGradient />
     <div className="min-h-screen bg-black flex items-center justify-center">
-      <Button white={false}>Something</Button>
+      <Button className="mt-10" href="#login" white={false}>
+        Something
+      </Button>
     </div>
   </>
 );
