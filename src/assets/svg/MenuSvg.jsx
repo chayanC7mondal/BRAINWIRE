@@ -14,6 +14,9 @@ const MenuSvg = ({ openNavigation }) => {
         rx="1"
         fill="white"
         transform={`rotate(${openNavigation ? "45" : "0"})`}
+        style={{
+          transition: "transform 0.3s ease, y 0.3s ease", // Smoother transition
+        }}
       />
       <rect
         className="transition-all origin-center"
@@ -23,6 +26,9 @@ const MenuSvg = ({ openNavigation }) => {
         rx="1"
         fill="white"
         transform={`rotate(${openNavigation ? "-45" : "0"})`}
+        style={{
+          transition: "transform 0.3s ease, y 0.3s ease", // Smoother transition
+        }}
       />
     </svg>
   );

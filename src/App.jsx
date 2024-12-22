@@ -1,7 +1,5 @@
-import React from "react";
 import ButtonGradient from "./assets/svg/ButtonGradient";
 import Header from "./components/Header";
-import Button from "./components/Button";
 
 const App = () => (
   <>
